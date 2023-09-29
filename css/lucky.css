@@ -27,6 +27,7 @@ a {
        #navbar ul {
          display: inline-block;
        }
+       
        }
 
 /********** Large devices only **********/
@@ -410,15 +411,15 @@ a {
  ======================================================*/
 
  /*Sale Banner*/
- .banner {
-       
-       background-image: url("/images/sale.jpg");
-       border-radius: 15px;
-       margin: 10px;
-       
-       padding: 10px;
-       width: 500px;
-       height: 200px;
+ .layout {
+       width: 1366px;
+       height: 768px;
+     
+       display: flex;
+       gap: 16px;
+     
+       justify-content: space-evenly;
+       align-items: center;
      }
      
 /*Shop Section*/

@@ -18,67 +18,205 @@
 <body>
 
 <!--Navigation Menu-->
-<nav id="navbar" class="">
-       <div class="nav-wrapper">              
-         <!-- Navbar Logo -->
-         <div class="logo">
-           <a href="#home"><img width="55px" height="auto" src="images/logo.png" alt="logo"></a>
-           
-           <div class="quote"><p>"Transform any space into an oasis you can be proud of!"</p></div>
-         </div>
+<nav class="menu-container">
+  
+  <!-- burger menu -->
+  <input type="checkbox" aria-label="Toggle menu" />
+  <span></span>
+  <span></span>
+  <span></span>
 
-         
-     
-         <!-- Navbar Links -->
-         <ul id="menu">
-           <li><a href="#home">Home</a></li><!--
-        --><li><a href="#shop">Shop</a></li>
-           <li><a href="#services">Services</a></li><!--
-        --><li><a href="#about">About</a></li><!--
-        --><li><a href="#contact">Contact</a></li>
-         </ul>
-       </div>
-</nav>     
-     
-     <!-- Menu Icon -->
-     <div class="menuIcon">
-       <span class="icon icon-bars"></span>
-       <span class="icon icon-bars overlay"></span>
-     </div>     
-     
-     <div class="overlay-menu">
-       <ul id="menu">
-           <li><a href="#home">Home</a></li>
-           <li><a href="#shop">Shop</a></li>
-           <li><a href="#services">Services</a></li>
-           <li><a href="#about">About</a></li>
-           <li><a href="#contact">Contact</a></li>
-         </ul>
-     </div>  
+  <!-- logo -->
+  <a href="#home" class="menu-logo">
+    <img src="images/logo.png" alt="Lucky Shrub"/>
+  </a>
+
+  <!-- menu items -->
+  <div class="menu">
+    <ul>
+    </ul>
+    <ul>
+      <li>
+        <a href="#home">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#shop">
+          Shop
+        </a>
+      </li>
+      <li>
+        <a href="#services">
+          Services
+        </a>
+      </li>
+      <li>
+        <a href="#about">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
   
   <!--Sale Banner-->
-  <div class="flex-container">
-    <div class="banner">Banner</div>
-  </div>
+  <table style="width:100%" class="sale">
+    <tr>
+      <th rowspan="1"><h1 class="hs">Sale</h1></th>
+    </tr>
+    <tr>
+      <td class="banner">
+        <img src="/images/plantsale.png" width="750px" height="400px">
+        
+        
+
+      </td>
+    </tr>
+  </table>
+
 
 <!--Shop Section-->
-<div class="flex-container2">
-  <div class="box1">Box 1</div>
-  <div class="box2">Box 2</div>
-  <div class="box3">Box 3</div>
-  <div class="box4">Box 4</div>
-</div>   
+<div class="hs1"><h1>Shop</h1></div>
 
-  <section>
- 
-      
-      <!--Services-->
-      
+<section class="layout">    
+  <div class="plant1"><a href="#shop"><img src="/images/plant1.jpg" width="200px" height="200px"></a>
+  <p>
+    Rosemary
+<br><br>
+Price: $14.99
+<br><br>
 
-    
+A tender perennial that likes full sun, and a poor light soil with ample lime. The name rosemary comes from the Latin meaning dew of the sea, a reference to the appearance of coastal rosemary fields in bloom.  
+  </p>
+  </div>
 
-  </section>
+  <div class="plant2"><a href="#shop"><img src="/images/plant2.jpg" width="200px" height="200px"></a>
+    <p>
+      Raspberry Amaranth
+  <br><br>
+  Price: $23.99
+  <br><br>
   
+  Simple place dried floral stems in a vase or arrange with other dried floral varieties to create your own dried floral arrangement.  
+    </p>
+  </div>
+
+  <div class="plant3"><a href="#shop"><img src="/images/plant3.jpg" width="200px" height="200px"></a>
+    <p>
+      Succulent
+  <br><br>
+  Price: $8.99
+  <br><br>
+  
+   This is a low-maintenance succulent, making it perfect for beginners and busy plant enthusiasts. Its drought-tolerant nature means you can enjoy its beauty with minimal care.  
+    </p>
+  </div>
+
+  <div class="plant4"><a href="#shop"><img src="/images/plant4.jpg" width="200px" height="200px"></a>
+    <p>
+      Coleus
+  <br><br>
+  Price: $71.99
+  <br><br>
+  
+  The Coleus sends vibrations through the planting beds as she dances around in her ruby red dress swaying in the breeze. She'll dance in full sun or full shade, depending on the music. She hovers 2-3' tall with a 3' spread, so give her plenty of room to swirl.  
+    </p>
+  </div>
+
+  <div class="plant5"><a href="#shop"><img src="/images/plant5.jpg" width="200px" height="200px"></a>
+    <p>
+      Ensete Maurelii
+  <br><br>
+  Price: $119.99
+  <br><br>
+  
+  Red Leaved Banana. A stunning palm-like plant with huge, broad leaves that fan out from a single trunk. Bold-colored foliage has wine-red and bronze tones with prominent venation. A popular choice for tropical-inspired gardens. Perfect for large patio containers.  
+    </p>
+  </div>
+</section>
+
+<!------Services------>
+
+
+<section class="services">
+
+<div class="row">
+  <div class="column left" style="background-color: beige;">
+    <img src="/images/landscape.jpg">
+  </div>
+
+  <div class="column right" style="background-color: beige;">
+    <h1 class="hs2">Services</h1>
+
+    <div class="para1">
+      <h3 class="h3">"Transform any space into an oasis you can be proud of!"</h3>
+      <p>
+        <b>Garden Design and Creation:</b> Lucky Shrub excels in designing and bringing to life personalized garden spaces that reflect the individual tastes and lifestyles of their clients. Their team of skilled designers works closely with customers to develop customized plans, ensuring each garden becomes a one-of-a-kind retreat. From traditional and classic designs to contemporary and innovative concepts, they showcase remarkable versatility in garden design.
+        <br><br>
+        <b>Maintenance:</b> Beyond the initial design and creation, Lucky Shrub is dedicated to the ongoing care and nurturing of the gardens they craft. They provide comprehensive maintenance services, tending to every aspect of the garden to ensure its sustained health and vibrancy. Their expert horticulturists ensure that plants, trees, and shrubs flourish, allowing the garden to evolve and thrive.
+        <br><br>
+        <b>Landscaping:</b> Lucky Shrub transforms outdoor spaces into captivating landscapes that seamlessly integrate with their surroundings. They specialize in the construction of hardscape elements such as pathways, patios, and water features, enhancing both the functionality and aesthetics of the garden. Known for their attention to detail and commitment to quality, their landscaping projects stand out for their beauty and durability.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  
+</section>
+
+<!------About------>
+<table style="width:100%" class="about">
+  <a href="#about"></a>
+  <tr>
+    <th rowspan="1"><h1 class="hs3">About</h1></th>
+  </tr>
+  <tr>
+    <td class="para2">
+      Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients. Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for plants. Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers. Maria manages all the marketing for the company and oversees the nursery. Lucky Shrub is a respected medium-sized garden design firm renowned for its expertise in crafting stunning outdoor spaces through garden design and creation, meticulous maintenance, and imaginative landscaping. With a commitment to creating unique and thriving gardens, Lucky Shrub has become a trusted name in the industry.
+      <br><br>
+      Lucky Shrub is committed to sustainability and environmentally responsible practices. They incorporate native plants and eco-friendly materials into their designs and landscaping projects, ensuring that their work contributes positively to the environment and local ecosystem. With a passion for enhancing outdoor beauty and functionality, Lucky Shrub has earned a reputation for excellence in garden design, maintenance, and landscaping. Whether it's creating an oasis of tranquility, preserving the natural charm of a garden, or crafting an inviting outdoor gathering space, they bring creativity and expertise to every project. Lucky Shrub is the go-to choice for garden enthusiasts seeking distinctive, thriving, and sustainable outdoor spaces.</td>
+  </tr>
+</table>
+
+
+<!------Contact Us------>
+<section>
+<h1 class="hs4">Contact Us</h1>
+
+  <div class="container">
+    <img src="images/logo.png" width="150px" class="lg"/>
+    
+    <form action="/action_page.php">
+      
+      <label for="fname">First Name</label>
+      
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">      
+  
+      <label for="subject">Subject</label>
+      
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</section>
+
+
+
+<!-------Footer------->
   <footer class="footer">
     <small>© <script>document.write(new Date().getFullYear())</script> Lucky Shrub. All Rights Reserved.</small>
   </footer>
@@ -87,6 +225,3 @@
 </body>
 </html>
 
-<!--Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to "transform any space into an oasis you can be proud of".
-
-Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a long-time love for plants. Jason is the garden architect. He creates and oversees all designs while managing his team of landscapers. Maria manages all the marketing for the company and oversees the nursery.-->
